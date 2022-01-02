@@ -76,10 +76,12 @@ header .svg-name {
     animation: animate 2s linear ease-in-out;
 }
 
-.svg-name .p1 {
-    stroke-dasharray: 65;
-    animation: animate .8s;
-}
+.hero__heading{
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
 
 
 header .info-box-container {
@@ -123,6 +125,7 @@ header .info-box-container .info-box .info-text {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 20px 20px;
 
 }
 
@@ -168,4 +171,3 @@ header .info-box-container .info-box .info-text {
 
 
 /* Animations */
-

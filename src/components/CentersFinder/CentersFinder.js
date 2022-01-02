@@ -39,8 +39,12 @@ const CentersFinder = () => {
       <div className="navigation">
         <nav>
           <ul>
-            <li>Syptoms</li>
-            <li>Diagnosis</li>
+            <Link to="/symptoms" style={{ textDecoration: "none" }}>
+              <li>Symptoms</li>
+            </Link>
+            <Link to="/diagnosis" style={{ textDecoration: "none" }}>
+              <li>Diagnosis</li>
+            </Link>
             <Link to="/" style={{ textDecoration: "none" }}>
               <li>Home</li>
             </Link>
